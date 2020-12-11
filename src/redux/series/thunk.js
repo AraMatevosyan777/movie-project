@@ -10,7 +10,7 @@ export const getSeries = () => async(dispatch) => {
         .filter(item => {
             if(item.programType === "series" && item.releaseYear >= 2010 ){
                 return true
-            }
+            }return false
         })
         let size = 10;
         let subarray = [];

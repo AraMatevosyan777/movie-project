@@ -24,7 +24,7 @@ const Content = ({items}) => {
 
   return (
     <div style={style}>
-        {items[page] && items[page].map(item => <MovieCard item={item}/>)}
+        {items[page] && items[page].map((item, i) => <MovieCard key={i} item={item}/>)}
         {items.length > 0 && <Pagination pages={pages} onPageChange={onPageChange}/>}
     </div>
   )

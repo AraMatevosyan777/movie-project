@@ -10,7 +10,7 @@ export const getMovies = () => async(dispatch) => {
         .filter(item => {
             if(item.programType === "movie" && item.releaseYear >= 2010 ){
                 return true
-            }
+            } return false
         })
         let size = 10;
         let subarray = [];
