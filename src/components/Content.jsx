@@ -12,7 +12,7 @@ const Content = ({items}) => {
         display: 'flex',
         flexWrap: 'wrap',
         alignItems: 'center',
-        justifyContent: 'space-between',
+        justifyContent: 'start',
         padding: '112px 0 0 0',
         heigth: '100vh',
     }

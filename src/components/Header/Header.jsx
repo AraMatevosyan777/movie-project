@@ -8,7 +8,7 @@ const Header = () => {
   const {pathname} = useLocation()
 
   const changeNav = () => {
-    if(window.scrollY >= 40){
+    if(window.scrollY >= 50){
       setScrollNav(true)
     }else{
       setScrollNav(false)

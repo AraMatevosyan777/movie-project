@@ -8,11 +8,14 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     root: {
-        width: '47%',
-        marginBottom: '50px'
+        width: '30%',
+        marginBottom: '50px',
+        marginRight: '25px'
     },
     media: {
-        height: '500px',
+        height: '300px',
+        backgroundPosition: 'center center',
+        backgroundSize: 'cover',
     },
 });
 
