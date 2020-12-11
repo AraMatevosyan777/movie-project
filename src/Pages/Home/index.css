@@ -1,0 +1,48 @@
+.home{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.homeContent{
+  position: relative;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.homeContent h1 {
+  width: 100%;
+  font-family: 'Syncopate', sans-serif;
+  color: #fff;
+  letter-spacing: 3vw;
+  line-height: 1.2;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.homeContent a{
+  background: linear-gradient(130.16deg, #505add 34.4%, #be40c0 66.11%, #fba82b 96.37%);
+  margin: 0 10px;
+  padding: 11px 18px 11px 18px;
+  line-height: 18px;
+  transition: .1s linear;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-flex;
+  letter-spacing: 0.2vw;
+}
+
+.homeContent a:hover{
+  transform: scale(1.1);
+}
+
